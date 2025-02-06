@@ -1,0 +1,12 @@
+####################### Banner #########################
+style: "style2 orient-center content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right color7"
+title : "Cheshire & North Wales Hawking Club"
+subtitle: |
+  Website of the Cheshire & North Wales Hawking Club
+content : |
+  This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
+button:
+  label : "Find out more"
+  link : "#first"
+image : "images/falcon_banner.jpg"
+
