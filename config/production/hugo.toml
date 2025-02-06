@@ -35,6 +35,7 @@ disableKinds = ["taxonomy", "section"]
   description = "The website for the Cheshire & North Wales Hawking Club"
   logo = "images/falcon_banner.jpg"
   favicon = true
+  timezone = "Europe/London"
 
 [Params.social]
 #  github = "https://github.com/caressofsteel/"
