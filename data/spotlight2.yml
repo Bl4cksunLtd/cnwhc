@@ -1,9 +1,13 @@
+
 ####################### Spotlight #########################
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Spotlight"
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+#id: "first"
+title : "Field Meetings"
 content: |
-  This is also a <strong>Spotlight</strong> element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  The club organizes a range of field meets throughout the season, catering to both longwings (falcons) and short/broadwings (hawks and buzzards). These events are open to all members and are generously subsidized by the club, with a nominal fee of just £35 per person. Depending on numbers, members are also welcome to spectate free of charge.
+  <p>Our meetings are informal and relaxed, filled with friendly banter, exciting sport, and a great sense of camaraderie. Everyone is supportive, making it a welcoming environment for both seasoned falconers and newcomers alike.
+
 button: 
   label: "Learn More"
   link: "#"
-image: "images/spotlight02.jpg"
+image: "images/field_meetings.jpg"

@@ -1,12 +1,12 @@
 ####################### Banner #########################
-style: "style2 orient-center content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right color7"
+style: "style3 orient-center content-align-center image-position-left fullscreen onload-image-fade-in onload-content-fade-right color7"
 title : "Cheshire & North Wales Hawking Club"
 subtitle: |
-  Website of the Cheshire & North Wales Hawking Club
+  The Cheshire & North Wales Hawking Club is a vibrant community of passionate falconry enthusiasts from Cheshire and North Wales
 content : |
-  This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
+  The club holds monthly meetings year-round and organises a variety of field meets throughout the season, providing ample opportunities for members to connect and share their love of the sport.<p>Formed through the merger of two long-established clubs, the Cheshire Hawking Club and the northern Welsh members of the Welsh Hawking Club, the club continues to honor its rich heritage while fostering a strong, united falconry community in the north west.<p>As a member of the Hawk Board, the club is committed to promoting best practices in falconry and advancing the interests of the sport.
 button:
-  label : "Find out more"
+  label : "How to Join"
   link : "#first"
 image : "images/falcon_banner.jpg"
 
