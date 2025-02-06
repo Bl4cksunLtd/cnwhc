@@ -40,10 +40,11 @@ disableKinds = ["taxonomy", "section"]
 [Params.social]
 #  github = "https://github.com/caressofsteel/"
 #  twitter = "https://twitter.com/caressofsteel_"
-  email = "caressofsteel@protonmail.com"
+  email = "cheshirehawkingclub@hotmail.co.uk"
 #  instagram = "https://instagram.com"
 #  linkedin = "https://linkedin.com"
 #  telegram = "https://telegram.org"
+	facebook = "https://www.facebook.com/groups/1211552709807540/"
 
 [Params.asset]
   fontawesome_css = ["css/fontawesome-all.min.css"]
