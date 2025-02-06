@@ -1,10 +1,21 @@
 ####################### Spotlight #########################
-style: "style1 orient-left content-align-right image-position-center onscroll-image-fade-in"
-id: "first"
-title : "How to Join"
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+#id: "first"
+title : "Membership Benefits"
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  Membership costs £30 per year, and members must be fully paid up by the May meeting to retain their membership. 
+  Please note, there is no reduction for partial-year memberships.<br><br>
+  As a member, you’ll enjoy the following benefits:  <ul>
+  <li>Attend our monthly meetings for free</li>
+  <li>Third-party insurance cover</li>
+  <li>Access to field meets for just £35 per person (subject to availability)</li>
+  <li>The opportunity to spectate at field meets for free (subject to availability)</li>
+  <li>Free advice and support from fellow members</li>
+  <li>Private Facebook and WhatsApp groups</li>
+  <li>Discounts on chicks and quail (subject to availability)</li>
+  <li>Representation on the Hawk Board</li>
+  </ul>
 button: 
-  label: "Learn More"
-  link: "#"
-image: "images/spotlight03.jpg"
+  label: "How to join"
+  link: "#first"
+image: "images/imped_tail.jpg"
