@@ -15,12 +15,6 @@ pictures:
     thumb: "images/gallery/thumbs/field_meet3_tn.png"
     button: "Enlarge"
 
-  - title: "Ellis"
-    content: "Much loved and missed by many."
-    image: "images/gallery/fulls/missed member.png"
-    thumb: "images/gallery/thumbs/missed member_tn.png"
-    button: "Enlarge"
-
   - title: "Flying Falcon"
     content: "Taken on a longwing field meet"
     image: "images/gallery/fulls/falcon flying3.png"
