@@ -4,8 +4,7 @@ id: "first"
 title : "How to Join"
 
 content: |
-  There are several ways to learn more about the club or join us.<br>
-  One of the best ways is to attend one of our meetings. This gives you the chance to meet fellow members, learn more about the club, and sign up in person. Guests are welcome to attend up to two meetings before needing to join.
+  The best way to learn more about the club or become a member is by attending one of our meetings, held at <b>8pm on the first Tuesday of each month</b>. It’s a great opportunity to meet fellow members, discover more about the club, and sign up in person. Guests are welcome to attend up to two meetings before deciding to join.
   
 button: 
   label: "Top"
@@ -18,11 +17,11 @@ name2: "Jeff Cockle"
 phone2: 
 role2: "Vice Chairman"
 name3: "Richard Newton"
-phone3: "+44 7923 9364039"
+phone3: "+44 7923 936403"
 role3: "Treasurer"
 name4: "Tim Williams"
-phone4: 
-role4: "Memebership Secretary"
+phone4: "+44 1925 837003"
+role4: "Membership Secretary"
 
 meeting_address: "The Railway Inn, Chester Road, Helsby, WA6 0AN"
 meeting_directions: "https://maps.app.goo.gl/1rSnavYTNScynfPCA"

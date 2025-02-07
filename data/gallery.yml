@@ -9,10 +9,10 @@ pictures:
     thumb: "images/gallery/thumbs/falcon flying_tn.png"
     button: "Enlarge"
 
-  - title: "It was this close"
-    content: "Discussing tactics on a field meeting."
-    image: "images/gallery/fulls/field_meet3.png"
-    thumb: "images/gallery/thumbs/field_meet3_tn.png"
+  - title: "Harris Hawk"
+    content: "Harris Hawk launches."
+    image: "images/gallery/fulls/nathan_harris.png"
+    thumb: "images/gallery/thumbs/nathan_harris_tn.png"
     button: "Enlarge"
 
   - title: "Flying Falcon"

@@ -2,13 +2,11 @@
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title : "Monthly Meetings"
 content: |
-  The club meets on the first Tuesday of every month at 8pm. As well as discussing club business, the meetings provide a relaxed opportunity for members to socialize, discuss falconry topics, and seek advice. Attendance is free, and the meetings often feature a raffle to support club funds.
-  <br>Some meetings also include guest speakers, with past topics covering subjects like gamehawking, gundogs in falconry, and expert advice from the Independent Bird Register.
-  <br>
-  <details summary="Location" >
-  <li>Railway Inn</li><li>Chester Road</li><li>Helsby</li><li>WA6 0AN</li><a target="_blank" href="https://maps.app.goo.gl/1rSnavYTNScynfPCA">Get Directions</a>
-  </details >
+  The club meets on the first Tuesday of every month at 8pm. As well as discussing club business, the meetings provide a relaxed opportunity for members to socialize, discuss falconry topics, and seek advice. Attendance is free for members, and non-members are welcome to attend up to two meetings before joining.<br>To support club funds, meetings often feature a raffle.
+  <p>Some sessions also include guest speakers, with past topics ranging from gamehawking and gundogs in falconry to expert advice from the Independent Bird Register.
+  </p>
+  <b>Railway Inn, Chester Road, Helsby, WA6 0AN <a target="_blank" href="https://maps.app.goo.gl/1rSnavYTNScynfPCA">Get Directions</a></b>
 button: 
-  label: "How to Join"
+  label: "How to join or find out more"
   link: "#first"
 image: "images/simon tyers talk.jpg"

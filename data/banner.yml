@@ -2,14 +2,15 @@
 style: "style3 orient-center content-align-center image-position-left fullscreen onload-image-fade-in onload-content-fade-right color7"
 title : "Cheshire & North Wales Hawking Club"
 subtitle: |
-  The Cheshire & North Wales Hawking Club is a vibrant community of passionate falconry enthusiasts from Cheshire and North Wales
+  The Cheshire & North Wales Hawking Club is a vibrant community of passionate falconry hobbyists and enthusiasts from Cheshire and North Wales
 content : |
-  The club holds monthly meetings year-round and organises a variety of field meets throughout the season, providing ample opportunities for members to connect and share their love of the sport.
-  <br>Formed through the merger of two long-established clubs, the Cheshire Hawking Club and the northern Welsh members of the Welsh Hawking Club, the club continues to honor its rich heritage while fostering a strong, united falconry community in the north west.<br>As a member of the Hawk Board, the club is committed to promoting best practices in falconry and advancing the interests of the sport.<br>
-  Potential new members are always welcome at the monthly meetings and is open to all who are interested in learning more about falconry.
-  <br><sub>Unfortunately the club do not offer public displays or events.</sub>
+  The club holds monthly meetings year-round and organises a variety of field meets, providing ample opportunities for members to connect and share their love of the sport.
+  <br>Formed through the merger of two long-established clubs, the club continues to honor its rich heritage while fostering a strong, united falconry community in the north west.<br>
+  As a member of the Hawk Board, the club is committed to promoting best practices in falconry and advancing the interests of the sport.<br>
+  <b>Potential new members are always welcome at the monthly meetings and to spectrate at field meets. The club is open to all who are interested in learning more about falconry.</b>
+  <br><sub>Unfortunately the club do not offer public displays, courses or events.</sub>
 button:
-  label : "How to get in touch"
+  label : "How to join or find out more"
   link : "#first"
 image : "images/falcon_banner.jpg"
 
