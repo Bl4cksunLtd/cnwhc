@@ -1,0 +1,31 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "How to Join"
+
+content: |
+  There are several ways to learn more about the club or join us.<br>
+  One of the best ways is to attend one of our meetings. This gives you the chance to meet fellow members, learn more about the club, and sign up in person. Guests are welcome to attend up to two meetings before needing to join.
+  
+button: 
+  label: "Top"
+  link: "#"
+
+name1: "Steve Lloyd"
+phone1: "+44 7562 275270"
+role1: "Chairman"
+name2: "Jeff Cockle"
+phone2: 
+role2: "Vice Chairman"
+name3: "Richard Newton"
+phone3: "+44 7923 9364039"
+role3: "Treasurer"
+name4: "Tim Williams"
+phone4: 
+role4: "Memebership Secretary"
+
+meeting_address: "The Railway Inn, Chester Road, Helsby, WA6 0AN"
+meeting_directions: "https://maps.app.goo.gl/1rSnavYTNScynfPCA"
+mailaddress: "cheshirehawkingclub@hotmail.co.uk"
+image: "images/how to join.jpg"
+

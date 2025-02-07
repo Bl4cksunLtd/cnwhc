@@ -5,6 +5,7 @@
 title = "Cheshire & North Wales Hawking Club"
 copyright = "{year}"
 languageCode = 'en-gb'
+description = "The Cheshire & North Wales Hawking Club is a vibrant community of passionate falconry enthusiasts from Cheshire and North Wales"
 
 ## -----------------------------------------------
 ## Publish
@@ -33,19 +34,12 @@ disableKinds = ["taxonomy", "section"]
 ## -----------------------------------------------
 
 [Params]
-  description = "The website for the North Wales & Cheshire Hawking Club"
   logo = "images/falcon_banner.jpg"
   favicon = true
   timezone = "Europe/London"
-
+ 
 [Params.social]
-#  github = "https://github.com/caressofsteel/"
-#  twitter = "https://twitter.com/caressofsteel_"
-  email = "cheshirehawkingclub@hotmail.co.uk"
-#  instagram = "https://instagram.com"
-#  linkedin = "https://linkedin.com"
-#  telegram = "https://telegram.org"
-	facebook = "https://www.facebook.com/groups/1211552709807540/"
+
 
 [Params.asset]
   fontawesome_css = ["css/fontawesome-all.min.css"]

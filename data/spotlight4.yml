@@ -2,12 +2,15 @@
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
 title : "How to Join"
+
 content: |
   There are several ways to learn more about the club or join us.<br>
-  One of the best ways is to attend one of our monthly meetings. This gives you the chance to meet fellow members, learn more about the club, and sign up in person. Guests are welcome to attend up to two meetings before needing to join.<br>
-  You can also reach out to us using the contact form below, and we’ll get back to you as soon as possible.<br>
-  Alternatively, feel free to contact us by phone at <a href="tel:0123456789">0123456789</a> or <a href="mailto:cheshirehawkingclub@hotmail.co.uk">email us</a>.
+  One of the best ways is to attend one of our meetings held on the first Tuesday of each month. This gives you the chance to meet fellow members, learn more about the club, and sign up in person. Guests are welcome to attend up to two meetings before needing to join. 
+  Find us at the Railway Inn, Chester Road, Helsby, WA6 0AN.<br><a target="_blank" href="https://maps.app.goo.gl/1rSnavYTNScynfPCA">Get Directions</a><br><br>
+  You can also reach out to us using the <a href="#form">contact form below</a>, and we’ll get back to you as soon as possible.<br>
+  Alternatively, feel free to contact us by phone at <a href="tel:0123456789">0123456789</a> or <a href="tel:0123456789">0123456789</a> or <a href="mailto:cheshirehawkingclub@hotmail.co.uk">email us</a>.
 button: 
   label: "Top"
   link: "#"
 image: "images/how to join.jpg"
+

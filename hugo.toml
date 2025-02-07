@@ -32,6 +32,22 @@ disableKinds = ["taxonomy", "section"]
 ## Site Parameters
 ## -----------------------------------------------
 
+##name1: "Richard"
+##phone1: "0123456789"
+##name2: "Steve"
+##phone2: "0912345678"
+
 [Params]
+    author = 'Martyn Weber'
+    description = "The Cheshire & North Wales Hawking Club is a vibrant community of passionate falconry enthusiasts from Cheshire and North Wales"
+    keywords = "North Wales, Cheshire, falconry, club, hawking, falcon, hawk, field sport"
+    
 
 [Params.social]
+#  github = "https://github.com/caressofsteel/"
+#  twitter = "https://twitter.com/caressofsteel_"
+  email = "cheshirehawkingclub@hotmail.co.uk"
+#  instagram = "https://instagram.com"
+#  linkedin = "https://linkedin.com"
+#  telegram = "https://telegram.org"
+	facebook = "https://www.facebook.com/groups/1211552709807540/"

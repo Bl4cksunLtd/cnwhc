@@ -1,0 +1,38 @@
+<!-- Join -->
+<section class="spotlight {{ .style }}"{{ with .id }} id="{{ . }}"{{ end }}>
+    <div class="content">
+        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+        {{ with .content }}<br>{{ . | safeHTML }}{{ end }}
+        <br><b>
+        {{ with .meeting_address }}{{ . | safeHTML }}{{ end }}
+        {{ with .meeting_directions }}<a target="_blank" href="{{ . | safeHTML }}">Get Directions</a>{{ end }}
+        </b>
+        {{ if .mailaddress }}<p>You can also reach out to us by email <a target="_blank" href="mailto:{{.mailaddress}}" class="fav icon style2 fa-envelope"></a>
+         and we’ll get back to you as soon as possible.</p> {{end}}
+  Alternatively, feel free to contact one of the committee directly:</p>
+        <centre><table>
+ <!--
+            <tr>
+                {{ if .phone1 }}<td><a href="tel:{{ .phone1 }}" class="button">Ring {{ .name1 }}  {{ .phone1 }}</a></td>{{ end }}
+                {{ if .phone2 }}<td><a href="tel:{{ .phone2 }}" class="button">Ring {{ .name2 }}  {{ .phone2 }}</a></td>{{ end }}
+            </tr>
+            <tr>
+                {{ if .phone3 }}<td><a href="tel:{{ .phone3 }}" class="button">Ring {{ .name3 }}  {{ .phone3 }}</a></td>{{ end }}
+                {{ if .phone4 }}<td><a href="tel:{{ .phone4 }}" class="button">Ring {{ .name4 }}  {{ .phone4 }}</a></td>{{ end }}
+            </tr>
+        -->
+            {{ if .phone1}}<tr><td>{{ .name1 }}</td><td>{{.role1}}</td><td><a href="tel:{{ .phone1 }}" class="button">{{ .phone1 }}</a></td></tr>{{ end }}
+            {{ if .phone2}}<tr><td>{{ .name2 }}</td><td>{{.role2}}</td><td><a href="tel:{{ .phone2 }}" class="button">{{ .phone2 }}</a></td></tr>{{ end }}
+            {{ if .phone3}}<tr><td>{{ .name3 }}</td><td>{{.role3}}</td><td><a href="tel:{{ .phone3 }}" class="button">{{ .phone3 }}</a></td></tr>{{ end }}
+            {{ if .phone4}}<tr><td>{{ .name4 }}</td><td>{{.role4}}</td><td><a href="tel:{{ .phone4 }}" class="button">{{ .phone4 }}</a></td></tr>{{ end }}
+        
+        </table></centre>
+
+        {{ with .button }}<ul class="actions stacked">
+            <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
+        </ul>{{ end }}
+    </div>
+    {{ with .image }}<div class="image">
+        <img src="{{ . }}" alt="" />
+    </div>{{ end }}
+</section>
