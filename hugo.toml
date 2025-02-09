@@ -13,11 +13,11 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "/"
+#baseURL = "/"
 publishDir = "public"
 
 # Remote
-#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
+baseURL = "https://candnwhc.co.uk/"
 #publishDir = "//centos/sites/hugodev/hugostory/"
 
 
@@ -26,28 +26,33 @@ publishDir = "public"
 ## -----------------------------------------------
 
 disableKinds = ["taxonomy", "section"]
-# googleAnalytics = "your-google-analytics-id"
+googleAnalytics = "G-299X1D0FEY"
 
 ## -----------------------------------------------
 ## Site Parameters
 ## -----------------------------------------------
 
-##name1: "Richard"
-##phone1: "0123456789"
-##name2: "Steve"
-##phone2: "0912345678"
+title = "Cheshire & North Wales Hawking Club"
+copyright = "{year}"
 
 [Params]
     author = 'Martyn Weber'
-    description = "The Cheshire & North Wales Hawking Club is a vibrant community of passionate falconry enthusiasts from Cheshire and North Wales"
-    keywords = "North Wales, Cheshire, falconry, club, hawking, falcon, hawk, field sport"
-    
+    description = "Join the Cheshire & North Wales Hawking Club, a vibrant community for falconry enthusiasts. Attend monthly meetings, participate in field meets, and connect with fellow falconers and bird of prey owners in Cheshire and North Wales."
+    keywords = "Cheshire & North Wales Hawking Club, Cheshire and North Wales Hawking Club, Falconry Club, Falconry Community, North Wales Falconry, Cheshire Falconry, Falconry Enthusiasts, Join a Falconry Club, Cheshire, Hawking Club North Wales, Falconry Field Meet, falconry, club, hawking, falcon, hawk, field sport, bird of prey"
+    logo = "images/falcon_banner.jpg"
+    favicon = true
+    timezone = "Europe/London"   
+    copyright = "2025" 
+
+[Params.asset]
+  fontawesome_css = ["css/fontawesome-all.min.css"]
+  fontawesome_js = ["js/fontawesome-all.min.js"]
 
 [Params.social]
-#  github = "https://github.com/caressofsteel/"
-#  twitter = "https://twitter.com/caressofsteel_"
-  email = "cheshirehawkingclub@hotmail.co.uk"
+#  github = ""
+#  twitter = ""
 #  instagram = "https://instagram.com"
-#  linkedin = "https://linkedin.com"
-#  telegram = "https://telegram.org"
-	facebook = "https://www.facebook.com/groups/1211552709807540/"
+#  linkedin = ""
+#  telegram = ""
+    facebook = "https://www.facebook.com/groups/1211552709807540/"
+    email = "cheshirehawkingclub@hotmail.co.uk"

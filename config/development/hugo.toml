@@ -2,21 +2,21 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-title = "Cheshire & North Wales Hawking Club"
-copyright = "{year}"
-languageCode = 'en-gb'
-description = "The Cheshire & North Wales Hawking Club is a vibrant community of passionate falconry enthusiasts from Cheshire and North Wales"
+#title = "Cheshire & North Wales Hawking Club"
+#copyright = "{year}"
+#languageCode = 'en-gb'
+#description = "The Cheshire & North Wales Hawking Club is a vibrant community of passionate falconry enthusiasts from Cheshire and North Wales"
 
 ## -----------------------------------------------
 ## Publish
 ## -----------------------------------------------
 
-relativeURLs = "true"
+#relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "/"
-publishDir = "public"
+#baseURL = "/"
+#publishDir = "public"
 
 # Remote
 #baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
@@ -26,21 +26,21 @@ publishDir = "public"
 ## Hugo Built-in Features
 ## -----------------------------------------------
 
-disableKinds = ["taxonomy", "section"]
+#disableKinds = ["taxonomy", "section"]
 # googleAnalytics = "G-XXXXXXXXXX"
 
 ## -----------------------------------------------
 ## Site Parameters
 ## -----------------------------------------------
 
-[Params]
-  logo = "images/falcon_banner.jpg"
-  favicon = true
-  timezone = "Europe/London"
+#[Params]
+#  logo = "images/falcon_banner.jpg"
+#  favicon = true
+#  timezone = "Europe/London"
  
 [Params.social]
 
-
-[Params.asset]
-  fontawesome_css = ["css/fontawesome-all.min.css"]
-  fontawesome_js = ["js/fontawesome-all.min.js"]
+#
+#[Params.asset]
+#  fontawesome_css = ["css/fontawesome-all.min.css"]
+#  fontawesome_js = ["js/fontawesome-all.min.js"]
