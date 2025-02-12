@@ -46,7 +46,7 @@ copyright = "{year}"
 
 [Params.asset]
   fontawesome_css = ["css/fontawesome-all.min.css"]
-  fontawesome_js = ["js/fontawesome-all.min.js"]
+  ##fontawesome_js = ["js/fontawesome-all.min.js"]
 
 [Params.social]
 #  github = ""
@@ -56,3 +56,7 @@ copyright = "{year}"
 #  telegram = ""
     facebook = "https://www.facebook.com/groups/1211552709807540/"
     email = "cheshirehawkingclub@hotmail.co.uk"
+
+[build]
+    [build.buildStats]
+        enable = true
