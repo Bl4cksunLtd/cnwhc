@@ -30,4 +30,13 @@
 		<link rel="stylesheet" href="{{ . | absURL }}">
 	{{- end }}
 
+	<!-- Ticker CSS-->
+	{{ if hugo.IsServer }}
+	{{ $style := resources.Get "sass/ticker.scss" | resources.ExecuteAsTemplate "scss/ticker.scss" . | toCSS (dict "targetPath" "css/ticker.css" "outputStyle" "compressed" "enableSourceMap" false) }}
+	<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+	{{ else }}
+	{{ $style := resources.Get "sass/ticker.scss" | resources.ExecuteAsTemplate "scss/ticker.scss" . | toCSS (dict "targetPath" "css/ticker.css" "enableSourceMap" false) }}
+	<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
+	{{ end }}
+	
 </head>
