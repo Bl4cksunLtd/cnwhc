@@ -9,7 +9,10 @@
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         
     </div>
+    <div class="content">
     {{ with .image }}<div class="image">
         <img src="{{.}}" alt="CNWHC" />
     </div>{{end}}
+    {{ partial "news" site.Data.news }}
+    </div>
 </section>
