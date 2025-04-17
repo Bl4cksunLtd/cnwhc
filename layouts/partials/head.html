@@ -1,10 +1,14 @@
 <head>
 	<title>{{ .Site.Title }}</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content={{ .Site.Params.description}}/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+	<meta name="description" content={{ .Site.Params.description}}>
 	<meta name="author" content={{ .Site.Params.author }}>
 	<meta name="keywords" content={{ .Site.Params.keywords }}>
+	<meta property="og:title" content="{{ .Site.Params.ogtitle }}">
+	<meta property="og:description" content={{.Site.Params.ogdescription}}>
+	<meta property="og:image" content="https://canwhc.co.uk/images/falcon_banner.jpg">
+
 	{{ if .Site.Params.favicon }}
 	{{ partial "favicon" }}
 	{{ end }}
@@ -38,5 +42,5 @@
 	{{ $style := resources.Get "sass/ticker.scss" | resources.ExecuteAsTemplate "scss/ticker.scss" . | toCSS (dict "targetPath" "css/ticker.css" "enableSourceMap" false) }}
 	<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
 	{{ end }}
-	
+	{{ partial "organisation.html" }}
 </head>

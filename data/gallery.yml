@@ -4,7 +4,7 @@ content: |
   A few pictures from our members.
 pictures:
   - title: "Peregrine Falcon"
-    #content: "A peregrine falcon flying."
+    content: "A flying peregrine falcon."
     image: "images/gallery/fulls/falcon flying.jpg"
     thumb: "images/gallery/thumbs/falcon flying_tn.jpg"
     button: "Enlarge"
