@@ -7,6 +7,7 @@ content: |
   </p>
   <b>Railway Inn, Chester Road, Helsby, WA6 0AN <br><center><a target="_blank" href="https://maps.app.goo.gl/1rSnavYTNScynfPCA">Get Directions</a></center></b>
 button: 
-  label: "How to join or find out more"
+  label: "Join our Falconry Club"
   link: "#first"
 image: "images/simon tyers talk small.jpg"
+imagetxt: "Club talk by Simon Tyers"
