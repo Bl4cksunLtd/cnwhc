@@ -16,6 +16,7 @@ content: |
     <li>Representation on the Hawk Board</li>
    </ul>
 button: 
-  label: "How to join or find out more"
+  label: "Interested in membership?"
   link: "#first"
 image: "images/imped_tail_small.jpg"
+imagetxt: "Club member imps a birds tail"

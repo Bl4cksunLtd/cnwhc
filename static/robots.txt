@@ -1,0 +1,6 @@
+# robots.txt for canwhc.co.uk
+
+User-agent: *
+Allow: /
+
+Sitemap: https://canwhc.co.uk/sitemap.xml

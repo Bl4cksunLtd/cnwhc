@@ -37,16 +37,19 @@ copyright = "{year}"
 
 [Params]
     author = 'Martyn Weber'
-    description = "Join the Cheshire & North Wales Hawking Club, a vibrant community for falconry enthusiasts. Attend monthly meetings, participate in field meets, and connect with fellow falconers and bird of prey owners in Cheshire and North Wales."
-    keywords = "Cheshire & North Wales Hawking Club, Cheshire and North Wales Hawking Club, Falconry Club, Falconry Community, North Wales Falconry, Cheshire Falconry, Falconry Enthusiasts, Join a Falconry Club, Cheshire, Hawking Club North Wales, Falconry Field Meet, falconry, club, hawking, falcon, hawk, field sport, bird of prey, liverpool, manchester, chester, learn falconry, widnes"
+    description = "Join the Cheshire & North Wales Hawking Club, a vibrant community for falconry enthusiasts. Attend monthly meetings, participate in field meets, and connect with fellow falconers and bird of prey owners in Cheshire, North Wales and North West of England."
+    ogdescription = "A falconry club for enthusiasts in Cheshire and North Wales."
+    ogtitle = "Join the Cheshire & North Wales Hawking Club"
+    keywords = "Cheshire falconry club, north wales falconry club, falconry club, hawking club, Join a Falconry Club, Falconry Field Meet, falconry, club, hawking, falcon, hawk, field sport, bird of prey, liverpool, manchester, chester, learn falconry, widnes"
     logo = "images/falcon_banner.jpg"
     favicon = true
     timezone = "Europe/London"   
     copyright = "2025" 
 
 [Params.asset]
-  fontawesome_css = ["css/fontawesome-minimal.css"]
-  ##fontawesome_js = ["js/fontawesome-all.min.js"]
+  ##fontawesome_css = ["css/fontawesome-minimal.css"]
+  fontawesome_css = ["css/fontawesome-all.min.css"]
+  fontawesome_js = ["js/fontawesome-all.min.js"]
 
 [Params.social]
 #  github = ""

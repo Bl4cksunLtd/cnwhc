@@ -1,0 +1,113 @@
+{{/* Hugo partial: Outputs JSON-LD Events for SEO with proper UK time offsets (BST/GMT) */}}
+
+{{ $now := now }}
+{{ $months := 6 }}
+{{ $events := slice }}
+{{ $seriesStartDate := "" }}
+
+{{/* Helper to get correct timezone offset for UK (BST or GMT) */}}
+{{ $ukOffset := "" }}
+{{ $month := $now.Month }}
+{{ if or (eq $month 4) (eq $month 5) (eq $month 6) (eq $month 7) (eq $month 8) (eq $month 9) (eq $month 10) }} 
+  {{ $ukOffset = "+01:00" }} {{/* BST (March to October) */}}
+{{ else }} 
+  {{ $ukOffset = "+00:00" }} {{/* GMT (November to February) */}}
+{{ end }}
+
+{{ range seq 0 (sub $months 1) }}
+  {{ $monthDate := $now.AddDate 0 . 0 }}
+  {{ $firstOfMonth := time (printf "%d-%02d-01" ($monthDate.Year) (int $monthDate.Month)) }}
+
+  {{ range seq 0 6 }}
+    {{ $candidate := $firstOfMonth.AddDate 0 0 . }}
+    {{ if eq (dateFormat "Monday" $candidate) "Tuesday" }}
+      {{ $eventDate := $candidate }}
+      {{ if eq $seriesStartDate "" }}{{ $seriesStartDate = $eventDate.Format "2006-01-02" }}{{ end }}
+      {{ $start := printf "%sT20:00:00%s" ($eventDate.Format "2006-01-02") $ukOffset }}
+      {{ $end := printf "%sT22:00:00%s" ($eventDate.Format "2006-01-02") $ukOffset }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Falconry Club Meeting – {{ $eventDate.Format "January 2006" }}",
+  "startDate": "{{ $start }}",
+  "endDate": "{{ $end }}",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "The Railway Inn",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Chester Road",
+      "addressLocality": "Helsby",
+      "postalCode": "WA6 0AN",
+      "addressCountry": "GB"
+    }
+  },
+  "image": "https://canwhc.co.uk/images/falcon_banner.jpg",
+  "description": "Monthly falconry meeting in Helsby, Cheshire. Held from 8pm to 10pm UK time on the first Tuesday of each month.",
+  "organizer": {
+    "@type": "Organization",
+    "name": "Cheshire & North Wales Hawking Club",
+    "url": "https://canwhc.co.uk"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock",
+    "url": "https://canwhc.co.uk"
+  }
+}
+</script>
+      {{ break }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EventSeries",
+  "name": "Cheshire & North Wales Hawking Club – Monthly Meeting",
+  "description": "A recurring monthly falconry meeting on the first Tuesday of every month at 8pm UK time in Helsby, Cheshire.",
+  "startDate": "{{ $seriesStartDate }}",
+  "eventSchedule": {
+    "@type": "Schedule",
+    "repeatFrequency": "P1M",
+    "byDay": "https://schema.org/Tuesday",
+    "byMonthDay": 1,
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "scheduleTimezone": "Europe/London"
+  },
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "The Railway Inn",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Chester Road",
+      "addressLocality": "Helsby",
+      "postalCode": "WA6 0AN",
+      "addressCountry": "GB"
+    }
+  },
+  "image": "https://canwhc.co.uk/images/falcon_banner.jpg",
+  "organizer": {
+    "@type": "Organization",
+    "name": "Cheshire & North Wales Hawking Club",
+    "url": "https://canwhc.co.uk"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock",
+    "url": "https://canwhc.co.uk"
+  }
+}
+</script>
