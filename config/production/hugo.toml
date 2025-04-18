@@ -16,7 +16,7 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "/"
+baseURL = "https://www.canwhc.co.uk/"
 publishDir = "public"
 
 # Remote
