@@ -1,7 +1,5 @@
 # Cheshire & North Wales Hawking Club Website 🦅
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/72b4b952-affb-4813-b9e8-d6c3d642283b/deploy-status)](https://app.netlify.com/projects/cadence-trainer/deploys)
-
 This repository contains the source code for the official website of the **Cheshire & North Wales Hawking Club (CNWHC)**, a vibrant falconry club made up of passionate enthusiasts from Cheshire, North Wales, and the wider North West of England.
 
 🔗 **Live Website:** [https://canwhc.co.uk](https://canwhc.co.uk)
